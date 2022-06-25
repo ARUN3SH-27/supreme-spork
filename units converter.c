@@ -22,13 +22,13 @@ int main(void) {
                 printf("%lf lbs\n", gramsToPounds(value));
         }
         else if (unit == 'c'){
-                printf("%lf f\n", celsiusToFahrenheit(value));
+                printf("%lf f\n", celsiusToFahrenheit(value));}
         else{
             printf("wrong option");
             }
         }
     }
-}
+
 
 double metersToFeet(double meters)
 {
